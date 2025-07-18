@@ -38,8 +38,12 @@ import math
 # resultado = numero01 + numero02
 # print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
 
-
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+numero01 = float(input("Digite o primeiro numero: "))
+numero02 = float(input("Digite o segundo numero: "))
+resultado = (numero01 + numero02) / 2
+print(f"A media entre {numero01} e {numero02} é: {resultado}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
