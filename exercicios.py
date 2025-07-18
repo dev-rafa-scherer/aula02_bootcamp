@@ -25,6 +25,10 @@ import math
 # print(f"O resultado da divisao inteira entre {numero01} e {numero02} é: {resultado}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+numero = int(input("Digite um numero: "))
+resultado = numero ** 2
+print(f"O quadrado do numero {numero} é: {resultado}")
+
 
 # #### Números de Ponto Flutuante (`float`)
 
