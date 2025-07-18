@@ -51,9 +51,9 @@ import math
 # print(f"A potencia de {base} elevado a {expoente} é: {resultado}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-tem_celcius = float(input("Digite a temperatura em celcius: "))
-tem_fahrenheit = (tem_celcius * 1.8) + 32
-print(f"A temperatura em fahrenheit de {tem_celcius} celcius é: {tem_fahrenheit}")
+temp_celcius = float(input("Digite a temperatura em celcius: "))
+temp_fahrenheit = (temp_celcius * 1.8) + 32
+print(f"A temperatura em fahrenheit de {temp_celcius} celcius é: {temp_fahrenheit}")
 
 
 
