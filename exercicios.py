@@ -100,12 +100,18 @@ import math
 # print(f"O resultado da operação OR entre {boolean01} e {boolean02} é: {boolean01 or boolean02}")
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-boolean = input("Digite um booleano: ")
-print(f"O booleano invertido de {boolean} é: {not boolean}")
-
+# boolean = input("Digite um booleano: ")
+# print(f"O booleano invertido de {boolean} é: {not boolean}")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# number01 = int(input("Digite o primeiro numero: "))
+# number02 = int(input("Digite o segundo numero: "))
+# print(f"Os numeros {number01} e {number02} {(number01 == number02) and 'sao' or 'nao sao'} iguais")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+number01 = int(input("Digite o primeiro numero: "))
+number02 = int(input("Digite o segundo numero: "))
+print(f"Os numeros {number01} e {number02} {(number01 != number02) and 'sao' or 'nao sao'} diferentes")
 
 # #### try-except e if
 
