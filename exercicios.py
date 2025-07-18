@@ -2,12 +2,17 @@ import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-numero01 = int(input("Digite o primeiro numero: "))
-numero02 = int(input("Digite o segundo numero: "))
-resultado = numero01 + numero02
-print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
+# numero01 = int(input("Digite o primeiro numero: "))
+# numero02 = int(input("Digite o segundo numero: "))
+# resultado = numero01 + numero02
+# print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+# numero = int(input("Digite um numero: "))
+# resultado = numero % 5
+# print(f"O resto da divisão do numero {numero} por 5 é: {resultado}")
+
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
