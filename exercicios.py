@@ -39,13 +39,23 @@ import math
 # print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-numero01 = float(input("Digite o primeiro numero: "))
-numero02 = float(input("Digite o segundo numero: "))
-resultado = (numero01 + numero02) / 2
-print(f"A media entre {numero01} e {numero02} é: {resultado}")
+# numero01 = float(input("Digite o primeiro numero: "))
+# numero02 = float(input("Digite o segundo numero: "))
+# resultado = (numero01 + numero02) / 2
+# print(f"A media entre {numero01} e {numero02} é: {resultado}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# base = float(input("Digite a base: "))
+# expoente = float(input("Digite o expoente: "))
+# resultado = base ** expoente
+# print(f"A potencia de {base} elevado a {expoente} é: {resultado}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+tem_celcius = float(input("Digite a temperatura em celcius: "))
+tem_fahrenheit = (tem_celcius * 1.8) + 32
+print(f"A temperatura em fahrenheit de {tem_celcius} celcius é: {tem_fahrenheit}")
+
+
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 # raio_circulo = float(input("Digite o raio do circulo: "))
