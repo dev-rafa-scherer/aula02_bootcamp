@@ -25,14 +25,20 @@ import math
 # print(f"O resultado da divisao inteira entre {numero01} e {numero02} é: {resultado}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-numero = int(input("Digite um numero: "))
-resultado = numero ** 2
-print(f"O quadrado do numero {numero} é: {resultado}")
+# numero = int(input("Digite um numero: "))
+# resultado = numero ** 2
+# print(f"O quadrado do numero {numero} é: {resultado}")
 
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+# numero01 = float(input("Digite o primeiro numero: "))
+# numero02 = float(input("Digite o segundo numero: "))
+# resultado = numero01 + numero02
+# print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
+
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
