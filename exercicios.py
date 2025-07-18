@@ -12,8 +12,11 @@ import math
 # resultado = numero % 5
 # print(f"O resto da divisão do numero {numero} por 5 é: {resultado}")
 
-
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+# numero01 = int(input("Digite o primeiro numero: "))
+# numero02 = int(input("Digite o segundo numero: "))
+# resultado = numero01 * numero02
+# print(f"O resultado da multiplicacao entre {numero01} e {numero02} é: {resultado}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # numero01 = int(input("Digite o primeiro numero: "))
