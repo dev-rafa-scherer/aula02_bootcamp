@@ -2,6 +2,11 @@ import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+numero01 = int(input("Digite o primeiro numero: "))
+numero02 = int(input("Digite o segundo numero: "))
+resultado = numero01 + numero02
+print(f"O resultado da soma entre {numero01} e {numero02} é: {resultado}")
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
@@ -32,11 +37,11 @@ import math
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-data = input("Digite uma data no formato dd/mm/aaaa: ")
-dia_mes_ano = data.split("/")
-print(f"Dia: {dia_mes_ano[0]}")
-print(f"Mês: {dia_mes_ano[1]}") 
-print(f"Ano: {dia_mes_ano[2]}")
+# data = input("Digite uma data no formato dd/mm/aaaa: ")
+# dia_mes_ano = data.split("/")
+# print(f"Dia: {dia_mes_ano[0]}")
+# print(f"Mês: {dia_mes_ano[1]}") 
+# print(f"Ano: {dia_mes_ano[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
