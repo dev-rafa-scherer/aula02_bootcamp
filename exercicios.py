@@ -109,13 +109,31 @@ import math
 # print(f"Os numeros {number01} e {number02} {(number01 == number02) and 'sao' or 'nao sao'} iguais")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-number01 = int(input("Digite o primeiro numero: "))
-number02 = int(input("Digite o segundo numero: "))
-print(f"Os numeros {number01} e {number02} {(number01 != number02) and 'sao' or 'nao sao'} diferentes")
+# number01 = int(input("Digite o primeiro numero: "))
+# number02 = int(input("Digite o segundo numero: "))
+# print(f"Os numeros {number01} e {number02} {(number01 != number02) and 'sao' or 'nao sao'} diferentes")
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+print("Escolha a temperatura que deseja converter: ")
+print("1 - Celsius para Fahrenheit")
+print("2 - Fahrenheit para Celsius")
+opcao = int(input("Digite a opcao desejada: "))
+
+if opcao == 1:
+    celsius = float(input("Digite a temperatura em Celsius: "))
+    fahrenheit = (celsius * 1.8) + 32
+    print(f"A temperatura em Fahrenheit de {celsius} Celsius é: {fahrenheit}")
+elif opcao == 2:
+    fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+    celsius = (fahrenheit - 32) / 1.8
+    print(f"A temperatura em Celsius de {fahrenheit} Fahrenheit é: {celsius}")    
+else:
+    print("Opcao invalida")
+
+
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
