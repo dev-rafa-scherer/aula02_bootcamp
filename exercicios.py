@@ -139,6 +139,31 @@ import math
 # print(f"A palavra {palavra} {(palavra == palavra_invertida) and 'é' or 'nao é'} palindromo")
 
 # 23: Calculadora Simples
+print("Escolha a operação desejada: ")
+print("1 - Soma")
+print("2 - Subtracao")
+print("3 - Multiplicacao")
+print("4 - Divisao")
+opcao = int(input("Digite a opcao desejada: "))
+
+if opcao == 1:
+    num01 = float(input("Digite o primeiro numero: "))
+    num02 = float(input("Digite o segundo numero: "))
+    print(f"A soma entre {num01} e {num02} é: {num01 + num02}")
+elif opcao == 2:
+    num01 = float(input("Digite o primeiro numero: "))
+    num02 = float(input("Digite o segundo numero: "))
+    print(f"A subtracao entre {num01} e {num02} é: {num01 - num02}")
+elif opcao == 3:
+    num01 = float(input("Digite o primeiro numero: "))
+    num02 = float(input("Digite o segundo numero: "))
+    print(f"A multiplicacao entre {num01} e {num02} é: {num01 * num02}")
+elif opcao == 4:
+    num01 = float(input("Digite o primeiro numero: "))
+    num02 = float(input("Digite o segundo numero: "))
+    print(f"A divisao entre {num01} e {num02} é: {num01 / num02}")
+else:
+    print("Opcao invalida")
 
 
 # 24: Classificador de Números
