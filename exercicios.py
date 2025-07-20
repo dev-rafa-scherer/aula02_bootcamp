@@ -116,25 +116,30 @@ import math
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-print("Escolha a temperatura que deseja converter: ")
-print("1 - Celsius para Fahrenheit")
-print("2 - Fahrenheit para Celsius")
-opcao = int(input("Digite a opcao desejada: "))
+# print("Escolha a temperatura que deseja converter: ")
+# print("1 - Celsius para Fahrenheit")
+# print("2 - Fahrenheit para Celsius")
+# opcao = int(input("Digite a opcao desejada: "))
 
-if opcao == 1:
-    celsius = float(input("Digite a temperatura em Celsius: "))
-    fahrenheit = (celsius * 1.8) + 32
-    print(f"A temperatura em Fahrenheit de {celsius} Celsius é: {fahrenheit}")
-elif opcao == 2:
-    fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
-    celsius = (fahrenheit - 32) / 1.8
-    print(f"A temperatura em Celsius de {fahrenheit} Fahrenheit é: {celsius}")    
-else:
-    print("Opcao invalida")
-
+# if opcao == 1:
+#     celsius = float(input("Digite a temperatura em Celsius: "))
+#     fahrenheit = (celsius * 1.8) + 32
+#     print(f"A temperatura em Fahrenheit de {celsius} Celsius é: {fahrenheit}")
+# elif opcao == 2:
+#     fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+#     celsius = (fahrenheit - 32) / 1.8
+#     print(f"A temperatura em Celsius de {fahrenheit} Fahrenheit é: {celsius}")    
+# else:
+#     print("Opcao invalida")
 
 
 # 22: Verificador de Palíndromo
+# palavra = input("Digite uma palavra: ")
+# palavra_invertida = palavra[::-1]
+# print(f"A palavra {palavra} {(palavra == palavra_invertida) and 'é' or 'nao é'} palindromo")
+
 # 23: Calculadora Simples
+
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
